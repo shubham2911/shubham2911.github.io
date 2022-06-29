@@ -1106,6 +1106,14 @@ ul.slides li {
 	animation-delay:0.5s;
 	-webkit-animation-delay:0.5s;
 }
+.delay-033s {
+	animation-delay:0.33s;
+	-webkit-animation-delay:0.33s;
+}
+.delay-066s {
+	animation-delay:0.66s;
+	-webkit-animation-delay:0.66s;
+}
 .delay-1s {
 	animation-delay:1s;
 	-webkit-animation-delay:1s;

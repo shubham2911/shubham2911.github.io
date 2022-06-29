@@ -13,6 +13,9 @@
     <title>Shubham Jain</title>
     <!-- Bootstrap -->
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap 4 files for medium blog -->
+    <link href="bootstrap4/usedformediumbootstrap4.css" rel="stylesheet">    
 	<!-- Font-Awesome -->
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<!-- Lightbox -->
@@ -27,6 +30,7 @@
     <link href="css/animate.css" rel="stylesheet">
 	<!-- Custom Favicon -->
 	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -81,7 +85,7 @@
               <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
                   <a style="color:black;" href="#about" class="scrollto wow fadeInUp delay-5s ">
-			            <p>SEE MORE</p>
+			            
 			            <p class="scrollto--arrow"><img src="img/scroll-down.png" alt="scroll down arrow"></p>
 			        </a>
                 </div>
@@ -107,8 +111,7 @@
               <div class="col-md-8 col-md-offset-2 wp1">
                 <h1 class="arrow"> Hello <span>There</span>!</h1><!-- Headline -->
 				<!-- about / welcome text -->
-                <p>My name is Shubham Jain. I am an MBA student at IIM Bangalore and currently developing the product on EPR side of business at <a href="https://samarthwasteenablers.com" target="_blank">Samarth Waste Enablers</a>. I love <a href="#blog">ideating</a> through the process, from conceptualization to execution. Outside of work, I enjoy sufi and light indian music, and sophomoric humour. 
-                </br>Also, I will travel anywhere for good <a href="#portfolio">food</a>.🤤</a> </p>
+                <p>My name is Shubham Jain. I am a product manager at InMobi and currently developing the product on EPR side of business at <a href="https://samarthwasteenablers.online" target="_blank">Samarth Waste Enablers</a>. I love <a href="#blog">ideating</a> through the process, from conceptualization to execution. Outside of work, I enjoy sufi and light indian music, and sophomoric humour. Also, I will travel anywhere for good <a href="#portfolio">food</a>.🤤</a> </p>
               </div>
             </div>
           </div>
@@ -133,30 +136,39 @@
               <div class="col-md-12">
           <div class="services">
           <!-- Service Box 1 -->
-                  <div class="col-md-4 wp2 item">
+                  <div class="col-md-3 wp2 item">
                     <div class="icon">
                       <i class="fa fa-graduation-cap"></i><!-- Icon -->
                     </div>
-                    <h2>IIT Roorkee (2013 - 2017)</h2><!-- Title -->
-                    <p>Graduated with a B.Tech in Electronics and Communication Engineering.</p><!-- Description -->
+                    <h2>IIT Roorkee</h2><!-- Title -->
+                    <p>(2013 - 2017)<br>B.Tech, Electronics and Communication Engineering</p><!-- Description -->
                   </div>
           <!-- Service Box 2 -->
-                  <div class="col-md-4 wp2 item delay-05s">
+                  <div class="col-md-3 wp2 item delay-033s">
                     <div class="icon">
                       <i class="fa fa-desktop"></i><!-- Icon -->
                     </div>
-                    <h2>Rivigo (2017 - 2020)</h2><!-- Title -->
-                    <p>Started my professional career with RIVIGO - India's fastest-growing and most valuable tech-logistics firm, building their in-house finance suite as well as leading other consumer-facing products. 
+                    <h2>Rivigo</h2><!-- Title -->
+                    <p>(2017 - 2020)<br>Software Development Engineer 2
 
 </p><!-- Description -->
                   </div>
           <!-- Service Box 3 -->
-                  <div class="col-md-4 wp2 item delay-1s">
+                  <div class="col-md-3 wp2 item delay-066s">
                     <div class="icon">
                       <i class="fa fa-university"></i><!-- Icon -->
                     </div>
-                    <h2>IIM Bangalore (2020 - 2022)</h2><!-- Title -->
-                    <p>Post Graduate Programme in Management. Back to college.</p><!-- Description -->
+                    <h2>IIM Bangalore</h2><!-- Title -->
+                    <p>(2020 - 2022)<br>Post Graduate Programme in Management</p><!-- Description -->
+                  </div>
+
+                  <!-- Service Box 4 -->
+                  <div class="col-md-3 wp2 item delay-1s">
+                    <div class="icon">
+                      <i class="fa fa-rocket"></i><!-- Icon -->
+                    </div>
+                    <h2>InMobi</h2><!-- Title -->
+                    <p>(2022 - Present)<br>Product Manager</p><!-- Description -->
                   </div>
           </div>
                   <div class="clearfix"></div>
@@ -200,9 +212,32 @@
       
       <!-- Blog Slider -->
             
+<!-- Dead method
+
 <div id="medium-widget"></div>
     <script src="https://medium-widget.pixelpoint.io/widget.js"></script>
-    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@shubham2911","postsPerLine":1,"limit":10,"picture":"small","fields":["description","author","claps","likes","publishAt"],"ratio":"square"}})</script>
+    <script>MediumWidget.Init({renderTo: '#medium-widget', params: {"resource":"https://medium.com/@shubham2911","postsPerLine":1,"limit":10,"picture":"small","fields":["description","author","claps","likes","publishAt"],"ratio":"square"}})</script> -->
+
+
+<!-- 
+Display blogs using twilik method
+https://medium.com/twilik/how-to-embed-medium-on-your-website-the-easy-way-41ac0a13231e
+
+<div id="retainable-rss-embed" 
+data-rss="https://medium.com/feed/@shubham2911"
+data-maxcols="3" 
+data-layout="grid" 
+data-poststyle="inline" 
+data-readmore="Read the rest" 
+data-buttonclass="btn btn-primary" 
+data-offset="-100"></div> -->
+
+<!-- Display using custom code  - last method in this blod
+https://medium.datadriveninvestor.com/embed-medium-as-a-blog-on-your-site-54a1b49cbe16
+
+-->
+    <div class="rowb4" id="jsonContent">
+    
 
         </section>
     <!-- ==========================
@@ -413,7 +448,7 @@
                   <p><a href="https://www.linkedin.com/in/shubham2911">Connect</a></p>
                 </div> -->
 
-                <div class="LI-profile-badge box-hover"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="shubham2911"><a class="LI-simple-link" href='https://in.linkedin.com/in/shubham2911?trk=profile-badge' target="_blank">Shubham Jain's Linkedin</a></div>
+                <div class="LI-profile-badge box-hover"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="shubham2911"><a class="LI-simple-link" href='https://in.linkedin.com/in/shubham2911?trk=profile-badge' target="_blank"></a></div>
               </div>
 
               
@@ -422,8 +457,7 @@
               <div class="col-md-6">
                 <div class="dark-box box-hover" style="max-height: 180px; margin-bottom: 20px">
                   <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
-                  <p><a href="mailto:mail@shubhamjain.in">mail@shubhamjain.in</a> /
-                  	<a href="mailto:shubham.jain20@iimb.ac.in">shubham.jain20@iimb.ac.in</a>
+                  <p><a href="mailto:shubham.jain20@iimb.ac.in">shubham.jain20@alumni.iimb.ac.in</a>
                   </p>
                 </div>
               </div>
@@ -488,6 +522,8 @@
 		
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
     <!-- SmoothScroll -->           
     <script type="text/javascript" src="assets/smoothscroll/smoothscroll.js"></script>
     <!-- Bootstrap -->
@@ -541,6 +577,8 @@
         }
 	
     </script>
+
+    <script src="https://www.twilik.com/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
 	
 	<!-- TEXT ROTATOR SETTINGS -->
     <script type="text/javascript">
@@ -554,8 +592,8 @@
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
 <script type="text/javascript" src="https://apis.google.com/js/platform.js"></script>
+<script src="medium-blogs-script.js"></script>
 
-  <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
 
     </body>
 </html>
